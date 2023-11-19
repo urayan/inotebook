@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/api/auth/createUser",
-      "destination": "http://51.20.133.230:5000/api/auth/createUser"
+      "source": "/api/:path*",
+      "destination": "https://51.20.133.230:5000/api/:path*"
     }
   ]
 }
