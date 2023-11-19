@@ -13,7 +13,7 @@ const Signup = () => {
     const { name, email, password } = credentials
     e.preventDefault();
     try {
-      const response = await fetch(`http://localhost:5000/api/auth/createUser`, {
+      const response = await fetch(`http://51.20.133.230:5000/api/auth/createUser`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
